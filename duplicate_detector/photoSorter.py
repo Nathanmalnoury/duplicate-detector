@@ -3,6 +3,7 @@ from pathlib import Path
 from tqdm import tqdm
 from .photofile import PhotoFile
 
+
 # TODO : Class, make prettier or things work
 
 

@@ -23,10 +23,3 @@ def get_path_all_files(dir_to_scan):
     print(f"Scanning of {dir_to_scan} is done, "
           f"{len(file_paths)} unique files found")
     return file_paths
-
-
-if __name__ == "__main__":
-    start = time.time()
-    get_path_all_files("/media/nathan/MAXTOR/photos/photos_non_triees/")
-    print(f"Took {time.time() - start}s")
-    # ftp_get_duplicates(SERVER_HOST, SERVER_USER, SERVER_PASSWORD, DIR)
